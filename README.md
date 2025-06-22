@@ -54,6 +54,13 @@ To use the included Python scripts for graphics and data extraction, you’ll ne
 
 ```sh
 pip install pillow numpy tqdm
+```
+
+## Shoutout 
+Goes to https://github.com/bbbradsmith/binxelview
+Perfect binary tool for looking at data, patterns, and maps even, you can discover a lot here.
+
+
 
 
 
