@@ -18,6 +18,14 @@ All disassembly, code comments, and tooling are provided for **educational and r
 > **No ROMs or copyrighted Sega assets are provided or distributed with this repository.**  
 > You must supply your own legally obtained ROMs for data extraction or visualization.
 
+## How to use
+
+Inside this folder is a single batch file (windows only sorry everyone)
+make-everything.bat If you run this.
+You take a look inside I've added several comments to this, some of the Python scripts have optional parameters.
+I'm sure they can be used for other Sega16 titles, just with a little bit of change as a lot of their code is duplicated, for instance, Golden Axe use almost identical code
+The only difference would be the ROM locations for the tables.
+
 ## Legal & Copyright
 
 - The original game, code, and graphics are copyright © Sega.
@@ -36,5 +44,16 @@ All disassembly, code comments, and tooling are provided for **educational and r
 
 *Happy disassembling!  
 For questions, issues, or takedown requests, please open an issue or contact the maintainer directly.*
+
+## Python Requirements
+
+To use the included Python scripts for graphics and data extraction, you’ll need:
+
+- Python 3.x (https://python.org/)
+- The following libraries:
+
+```sh
+pip install pillow numpy tqdm
+
 
 
